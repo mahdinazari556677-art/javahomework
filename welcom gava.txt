@@ -1,0 +1,4 @@
+public class Welcome {
+public static void main(straing []args)
+{
+Sestem.out.println{"this is first"};
