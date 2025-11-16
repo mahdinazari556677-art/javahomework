@@ -1,0 +1,17 @@
+
+package mahdi1;
+
+public class Mahdi1 {
+
+    public static void main(String[] args) {
+      int i=3;
+      int j=5;
+      int k=8;
+      if (i>j){
+       if(k>j)   
+                System.out.println("true");}
+       else{
+                System.out.println("false");}
+    }
+    
+}

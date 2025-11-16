@@ -1,0 +1,11 @@
+
+package javaapplication5;
+public class JavaApplication5 {
+    public static void main(String[] args) {
+        // calculat circle erea
+   double r=100;
+   double A=3.14159*r*r;
+   System.out.println(A);
+    }
+    
+}
