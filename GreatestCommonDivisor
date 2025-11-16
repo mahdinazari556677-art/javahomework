@@ -1,0 +1,24 @@
+
+package minimizingnumerical;
+
+import java.util.Scanner;
+
+public class MinimizingNumerical {
+
+    public static void main(String[] args) {
+       Scanner input =new Scanner(System.in);
+        System.out.println("enter your first int");
+        int n1=input.nextInt();
+        System.out.println("enter your second  itn ");
+        int n2=input.nextInt();
+        
+        int gcd=1;
+        int j=3;
+        while (j<n1&&j<n2){
+            if (n1%j==0&&n2%j==0)
+                gcd =j; j++;  }
+        System.out.println("the gretaset comman divisor for "+n1+"and"+n2+
+               "is" +gcd);
+        }
+    
+}
